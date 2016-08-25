@@ -1,0 +1,90 @@
+@font-face {
+    font-family: MadisonAve;
+    src: url(Fonts/MADAVE.TTF);
+}
+
+*{
+    font-family: MadisonAve;
+}
+
+body{
+    background-image: url(Pics/background.jpg)
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: 4px 4px grey;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: firebrick;
+    margin-left: 40px;
+    font-size: 26px;
+}
+
+nav a:hover{
+    color: whitesmoke;
+    background-color: firebrick;
+}
+
+section{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section a:not(#mailUs):not(#backHome){
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: whitesmoke;
+}
+section a:not(#mailUs):not(#backHome):visited{
+    color: indianred;
+}
+
+footer{
+    margin-top: 30px;
+    font-size:18px;
+    font-weight: bold;
+    color:antiquewhite;
+    bottom: -40px;
+    text-align: center;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+
+#map-canvas{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+input, textarea{
+    background-color: firebrick;
+    color:azure;
+}
+
+#mailUs,#backHome{
+    color:lightblue;
+}

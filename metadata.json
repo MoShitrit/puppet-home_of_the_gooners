@@ -1,0 +1,14 @@
+{
+  "name": "mosheshi-home_of_the_gooners",
+  "version": "0.1.0",
+  "author": "mosheshi",
+  "summary": "Publishes my website Home of The Gooners",
+  "license": "Apache 2.0",
+  "source": "https://github.com/MoShitrit/HomeOfTheGooners",
+  "project_page": "https://github.com/MoShitrit/HomeOfTheGooners",
+  "issues_url": "https://github.com/MoShitrit/HomeOfTheGooners/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
